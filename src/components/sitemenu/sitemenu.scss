@@ -1,0 +1,50 @@
+@import "../../universal.scss";
+
+.siteMenu{
+    width: 300px;
+    height: 100vh;
+    background-color: $first-color;
+    position: fixed;
+    top: 0;
+    //hide menu off page until clicked
+    right: -300px;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+     //make transition smoother
+     transition: all 1s ease;
+
+    //display menu when navbar hamburger is clicked/"active"
+    &.active {
+        right: 0;
+    }
+
+    ul{
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        font-size: 30px;
+        font-weight: 300;
+        color: white;
+        width: 60%;
+     
+
+        li{
+            //put space between each li
+            margin-bottom: 25px;
+            a{
+            font-style: inherit;
+            color: inherit;
+            text-decoration: none;
+            }
+
+            //when hovered, make font bigger
+            &:hover {
+                font-weight: 500;
+            }
+        }
+    }
+
+}

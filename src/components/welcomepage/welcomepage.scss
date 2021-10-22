@@ -1,0 +1,155 @@
+@import "../../universal.scss";
+// make page mobile responsive
+
+.welcome{
+    background-color: white;
+    display: flex;
+
+    @include mobile{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .left-page{
+        flex: 0.5;
+        overflow: hidden;
+
+        .imageHolder{
+            width: 600px;
+            height: 675px;
+            background-color: #E03616;
+            border-radius: 50%;
+            display: flex;
+            // align-items: flex-end;
+            justify-content: center;
+            // bring holder to right side of page
+            // float: right;
+             // bring holder to right side of page (alt to above)
+            margin-left: 30px;
+
+            @include mobile {
+                align-items: flex-start;
+            }
+
+            img{
+                height: 85%;
+                margin-top: 10%;
+
+                @include mobile{
+                    height: 50%;
+                    margin-top: 1px;
+                }
+            }
+        }
+      
+    }
+
+    .right-page{
+        flex: 0.5;
+        position: relative;
+
+        .wrapper{
+            width: 100%;
+            height: 100%;
+            padding-left: 50px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+
+            @include mobile {
+                padding-left: 0;
+                align-items: center;
+            }
+            
+            h1{
+                font-size: 60px;
+                margin: 10px 0;
+
+                @include mobile {
+                    font-size: 40px;
+                }
+            }
+
+            h2{
+                font-size: 35px;  
+            }
+
+            h3{
+                font-size: 25px;
+
+                @include mobile {
+                    font-size: 20px;
+                }
+
+                span{
+                    color: #E03616;
+                }
+            }
+        }
+a{
+    // position: absolute;
+    bottom: 10px;
+    left: 40%;
+    margin-bottom: 50px;
+
+    img{
+        width: 30px;
+        animation: arrowFlash 2s infinite;
+    }
+
+    @keyframes arrowFlash {
+        100%{
+            opacity: 0;
+        }
+    }
+}
+       
+   
+    }
+ }
+
+ .button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: $first-color;
+    color: #fff;
+    padding: .5rem;
+    border-radius: .5rem;
+    font-weight: $font-medium;
+    text-decoration: none;
+    text-align: center;
+    // margin-bottom: 3rem;
+    margin-top: -70px;
+    margin-left: 50px;
+    width: 113px;
+    height: 55px;
+    font-size: 15px;
+
+    @include mobile{
+        margin-top: -70px;
+        margin-right: 30px;
+    }
+}
+
+.button:hover{
+    background-color: #E03616;
+}
+
+.button_icon{
+    font-size: 1.25rem;
+    margin-left: -6px;
+    transition: .3s;
+    color: #fff;
+    // padding-right: 50px;
+    
+}
+
+.button--flex{
+    display: inline-flex;
+    align-items: center;
+}
+
+.subtitle{
+    margin-bottom: 110px;
+}

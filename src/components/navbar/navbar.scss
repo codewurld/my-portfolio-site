@@ -1,0 +1,108 @@
+@import "../../universal.scss";
+
+.navbar{
+    width: 100%;
+    height: 70px;
+    background-color: #fff;
+    color: $first-color;
+    position: fixed;
+    top: 0;
+    // specify the stack order of navbar -w3School. only works on positioned elements and fixed items 
+    z-index: 3;
+    //make navbar transition smoother
+    transition: all 1s ease;
+
+    .container{
+        padding: 10px 30px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        .leftContainer{
+            display: flex;
+            align-items: center;
+        
+        .myLogo{
+            font-size: 40px;
+            font-weight: 700;
+            text-decoration: none;
+            color: inherit;
+            margin-right: 40px;
+        }
+
+        .itemContainer{
+            display: flex;
+            align-items: center;
+            margin-left: 30px;
+
+            // @include mobile {
+            //     display: none;
+            // }
+
+            .icon{
+                font-size: 25px;
+                margin-right: 5px;
+                cursor: pointer;
+                color: inherit;
+            }
+
+            .icon:hover{
+                color: #E03616;;
+            }
+
+            span{
+                font-size: 15px;
+                font-weight: 400;
+            
+            }
+        }
+    }   
+        
+        .rightContainer {
+
+            //hamburger menu
+            .hamburgerMenu{
+                width: 32px;
+                height: 25px;
+                display: flex;
+                flex-direction: column;
+                // divides menu lines 
+                justify-content: space-between;
+                cursor: pointer;
+            
+                span{
+                    width: 100%;
+                    height: 3px;
+                    background-color: $mainColor;
+                    transform-origin: left;
+                    //hamburger menu animation
+                    transition: all 2s ease;
+                }
+            }
+        }
+    }
+
+    // if navbar class contains "active", bg & text properties (i.e. color and position) changes
+&.active{
+    background-color: $first-color;
+    color: white;
+
+    .hamburgerMenu{
+        span{
+            //select firt line of hamburger
+          &:first-child{
+              background-color: white;
+              transform: rotate(45deg)
+          }
+          &:nth-child(2){
+              opacity: 0;
+          }
+          &:last-child{
+              background-color: white;
+              transform: rotate(-45deg)
+          }  
+        }
+    }
+}
+
+}
