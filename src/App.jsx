@@ -16,9 +16,14 @@ function App() {
 
   return (
     <div className="app">
+      <nav>
+        <Navbar openMenu={openMenu} setOpenMenu={setOpenMenu} />
+        <SiteMenu openMenu={openMenu} setOpenMenu={setOpenMenu} />
+      </nav>
+
       <Home />
       <About />
-    </div>
+    </div >
   );
 }
 

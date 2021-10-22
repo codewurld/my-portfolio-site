@@ -101,7 +101,8 @@ position: relative;
     /* when using absolute position, parent element should be relative */
     position: absolute;
     /* append the image to top of clip-path */
-    top: 0;
+    margin-bottom: 20px;
+    /* top: 0; */
     right: 0;
 }
 

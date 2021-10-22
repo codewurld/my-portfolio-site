@@ -3,6 +3,7 @@ import './aboutme.css'
 const AboutMe = () => {
     return (
         <div className="about-me">
+        {/* divide component to two containers - left and right */}
             <div className="about-meLeft">
                 <div className="about-meCard bg"></div>
                 <div className="about-meCard">
