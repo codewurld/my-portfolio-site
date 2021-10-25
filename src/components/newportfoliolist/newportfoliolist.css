@@ -1,0 +1,28 @@
+.portfolio-list{
+    padding: 50px 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.portfolio-listText{
+    width: 65%;
+}
+
+.portfolio-listTitle{
+    font-size: 50px;
+    font-weight: 600;
+}
+
+.portfolio-listSubtitle{
+    margin: 20px 0px;
+}
+
+.portfolio-listItems{
+    width: 100%;
+    display: flex;
+    /* flexed content spills to another line and prevent over flow */
+    flex-wrap: wrap;
+    justify-content: space-between;
+}

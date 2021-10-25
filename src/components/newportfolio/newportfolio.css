@@ -1,0 +1,52 @@
+
+.new-portfolio-item{
+    width: 30%;
+    height: 40vh;
+    margin: 20px 10px;
+    border: 2px solid red;
+    border-radius: 10px 10px 0px 0px;
+    overflow: hidden;
+}
+
+.new-portfolio-design{
+    height: 20px;
+    background-color: red;
+    display: flex;
+    align-items: center;
+    /* keep browser design stuck to the top */
+    position: sticky;
+    z-index: 2;
+}
+
+.new-portfolio-shape{
+    width: 6px;
+    height: 6px;
+    background-color: white;
+    margin: 3px;
+    border-radius: 50%;
+}
+
+.new-portfolio-img{
+    width: 100%;
+    transition: all 10s ease;
+}
+
+/* animate portfolio image to imitate scroll when hovered */
+.new-portfolio-item:hover .new-portfolio-img{
+   transform: translateY(-100%);
+}
+
+.new-portfolio-details-container{
+    font-size: small;
+    margin-top: 150px;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+/* .new-portfolio-listDescription{
+    font-size: small;
+    margin-top: 110px;
+    padding: 0px -10px -10px 0px;
+    padding-left: 8px;
+    padding-right: 8px;
+} */
