@@ -12,6 +12,7 @@ import Home from "./pages/Home"
 import About from "./pages/About"
 import PortfolioPage from "./pages/Portfolio"
 import ContactPage from "./pages/ContactPage"
+import Darkmode from "./components/darkmode/Darkmode"
 
 function App() {
   const [openMenu, setOpenMenu] = useState(false)
@@ -21,6 +22,7 @@ function App() {
       <nav>
         <Navbar openMenu={openMenu} setOpenMenu={setOpenMenu} />
         <SiteMenu openMenu={openMenu} setOpenMenu={setOpenMenu} />
+        <Darkmode />
       </nav>
 
       <Home />
