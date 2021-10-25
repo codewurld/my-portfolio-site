@@ -13,6 +13,7 @@
     align-items: center;
     justify-content: center;
     position: relative;
+    height: 100%;
 }
 
 .about-meRight{
@@ -26,12 +27,15 @@
     background-color: aqua;
 
 
+
 }
 
 .about-meCard{
     width: 60%;
     height: 70vh;
     border-radius: 30px;
+    position: relative;
+    overflow: hidden;
 }
 
 .about-meImg{
