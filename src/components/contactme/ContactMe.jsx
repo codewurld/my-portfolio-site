@@ -1,6 +1,8 @@
 import './contactme.css'
 import { useRef, useState } from 'react'
 import emailjs from 'emailjs-com';
+import { useContext } from 'react';
+import { ThemeContext } from '../../context';
 
 const ContactMe = () => {
     // provide access to all data in contact form
@@ -25,7 +27,15 @@ const ContactMe = () => {
             });
     }
 
+
+    // call ThemeContext
+    const theme = useContext(ThemeContext)
+    // call darkmode state in useContext from context.js file
+    const darkMode = theme.state.darkMode
     return (
+
+
+
         <div className="contact-me">
             <div className="contact-me-bg">
             </div>
@@ -44,11 +54,11 @@ const ContactMe = () => {
                         <b>Hi there.</b> Get in touch. I am open to a conversation if the right opportunity comes along.
                     </p>
                     <form ref={formRef} onSubmit={handleSubmit}>
-                        {/* name attribute allows input connection with email.js  */}
-                        <input type="text" placeholder="Name" name="user_name" />
-                        <input type="text" placeholder="Subject" name="user_subject" />
-                        <input type="text" placeholder="Email" name="user_email" />
-                        <textarea rows="5" placeholder="Message" name="message" />
+                        {/* name attribute allows input style={{backgroundColor: darkMode && "#333"}} connection with email.js  */}
+                        <input style={{ backgroundColor: darkMode && "#333" }} type="text" placeholder="Name" name="user_name" />
+                        <input style={{ backgroundColor: darkMode && "#333" }} type="text" placeholder="Subject" name="user_subject" />
+                        <input style={{ backgroundColor: darkMode && "#333" }} type="text" placeholder="Email" name="user_email" />
+                        <textarea style={{ backgroundColor: darkMode && "#333" }} rows="5" placeholder="Message" name="message" />
                         <button>Submit</button>
                         {/* if message is sent, push acknowledgment notification to user */}
                         {sentEmail && "Thank you for getting in touch... I'll get back to you within 24 hours."}

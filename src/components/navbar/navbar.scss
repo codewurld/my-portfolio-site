@@ -69,6 +69,7 @@
                 // divides menu lines 
                 justify-content: space-between;
                 cursor: pointer;
+                
             
                 span{
                     width: 100%;
@@ -77,6 +78,7 @@
                     transform-origin: left;
                     //hamburger menu animation
                     transition: all 2s ease;
+                    // z-index: 2;
                 }
             }
         }

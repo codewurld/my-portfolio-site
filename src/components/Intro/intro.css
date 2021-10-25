@@ -42,6 +42,7 @@ position: relative;
 .intro-title{
     height: 50px;
     overflow: hidden;
+    /* margin-bottom: 30px; */
 }
 
 /* loop animation infinitely */
@@ -72,10 +73,14 @@ position: relative;
     font-size: 30px;
     font-weight: bold;
     color: red;
-    background-color: yellow;
+    /* background-color: yellow; */
     /* display flex and align items centers item vertically within its container */
     display: flex;
     align-items: center;
+}
+
+.intro-button{
+    margin-top: 60px;
 }
 
 .intro-img{

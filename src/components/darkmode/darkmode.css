@@ -4,6 +4,7 @@
     border-radius: 20px;
     border: 1px solid yellow;
     background-color: white;
+    position: relative;
     display: flex;
     /* align items vertically */
     align-items: center;
