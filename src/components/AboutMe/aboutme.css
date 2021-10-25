@@ -18,16 +18,14 @@
 
 .about-meRight{
     flex: 1;
+    margin-right: 60px;
 }
 
 .about-meCard.bg{
     position: absolute;
     top: 50px;
     left: 50px;
-    background-color: aqua;
-
-
-
+    background-color: #E03616;
 }
 
 .about-meCard{
@@ -42,4 +40,23 @@
     width: 100%;
     height: 100%;
     object-fit: cover;
+}
+
+.about_buttons{
+    display: flex;
+    justify-content: center;
+    margin-top: 300px;
+    
+}
+
+.about-meTitle{
+    font-weight: 400;
+}
+
+.about-meSubtitle{
+    margin: 20px 0px;
+}
+
+.about-meDescription{
+    font-weight: 300;
 }

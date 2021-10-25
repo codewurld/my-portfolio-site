@@ -10,6 +10,7 @@ import WelcomePage from "./components/welcomepage/Welcomepage"
 import SiteMenu from "./components/sitemenu/SiteMenu"
 import Home from "./pages/Home"
 import About from "./pages/About"
+import PortfolioPage from "./pages/Portfolio"
 
 function App() {
   const [openMenu, setOpenMenu] = useState(false)
@@ -23,6 +24,7 @@ function App() {
 
       <Home />
       <About />
+      <PortfolioPage />
     </div >
   );
 }
