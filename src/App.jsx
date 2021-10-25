@@ -14,11 +14,13 @@ import PortfolioPage from "./pages/Portfolio"
 import ContactPage from "./pages/ContactPage"
 import Darkmode from "./components/darkmode/Darkmode"
 
+
 function App() {
   const [openMenu, setOpenMenu] = useState(false)
 
   return (
     <div className="app">
+
       <nav>
         <Navbar openMenu={openMenu} setOpenMenu={setOpenMenu} />
         <SiteMenu openMenu={openMenu} setOpenMenu={setOpenMenu} />
@@ -27,6 +29,7 @@ function App() {
       <PortfolioPage />
       <About />
       <ContactPage />
+
     </div >
   );
 }
