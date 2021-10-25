@@ -1,0 +1,59 @@
+
+.contact-me{
+    height: 100vh;
+    position: relative;
+}
+
+.contact-me-bg{
+    width: 20px;
+    height: 100%;
+    background-color: red;
+    position: absolute;
+}
+
+.contact-me-container{
+    padding: 50px;
+    display: flex;
+}
+
+.contact-me-left{
+    flex: 1
+}
+
+.contact-me-right{
+    flex: 1
+}
+
+.contact-me-info-item{
+    display: flex;
+    align-items: center;
+    margin: 50px 0px;
+    font-weight: 300;
+}
+
+.contact-icon{
+    width: 30px;
+    height: 30px;
+    font-size: 20px;
+    margin-right: 20px;
+    /* margin-top: 2px; */
+}
+
+.contact-email{
+    margin-left: -20px;
+}
+
+.contact-me-description{
+    font-weight: 200;
+}
+
+form{
+    margin-top: 20px;
+}
+
+input{
+    width: 50%;
+    height: 50px;
+    border: none;
+    border-bottom: 1px solid black;
+}

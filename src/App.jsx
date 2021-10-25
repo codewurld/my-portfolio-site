@@ -11,6 +11,7 @@ import SiteMenu from "./components/sitemenu/SiteMenu"
 import Home from "./pages/Home"
 import About from "./pages/About"
 import PortfolioPage from "./pages/Portfolio"
+import ContactPage from "./pages/ContactPage"
 
 function App() {
   const [openMenu, setOpenMenu] = useState(false)
@@ -25,6 +26,7 @@ function App() {
       <Home />
       <About />
       <PortfolioPage />
+      <ContactPage />
     </div >
   );
 }
