@@ -4,6 +4,7 @@ import Person from '@material-ui/icons/Person';
 import EmailIcon from '@material-ui/icons/Email';
 import GitHubIcon from '@material-ui/icons/GitHub';
 import LinkedInIcon from '@material-ui/icons/LinkedIn';
+import Darkmode from "../darkmode/Darkmode";
 
 const Navbar = ({ openMenu, setOpenMenu }) => {
     return (
@@ -11,12 +12,13 @@ const Navbar = ({ openMenu, setOpenMenu }) => {
         <div className={"navbar " + (openMenu && "active")}>
             <div className="container">
                 <div className="leftContainer">
-                    <a href="#welcome" className="myLogo">S.</a>
+                    <a href="#welcome" className="myLogo">SQ.</a>
 
                 </div>
+                <Darkmode />
 
                 <div className="rightContainer">
-                    {/* when hamburger is clicked, run setOpenMenu function with opposite state of current openMenu */}
+                    {/* open menu list when hamburger is clicked, using setOpenMenu function */}
                     <div className="hamburgerMenu" onClick={() => setOpenMenu(!openMenu)}>
                         <span className="firstLine"></span>
                         <span className="secondLine"></span>

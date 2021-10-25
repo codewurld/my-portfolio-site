@@ -22,12 +22,10 @@ function App() {
       <nav>
         <Navbar openMenu={openMenu} setOpenMenu={setOpenMenu} />
         <SiteMenu openMenu={openMenu} setOpenMenu={setOpenMenu} />
-        <Darkmode />
       </nav>
-
       <Home />
-      <About />
       <PortfolioPage />
+      <About />
       <ContactPage />
     </div >
   );
