@@ -1,20 +1,25 @@
 import NewPortfolio from '../newportfolio/NewPortfolio';
 import './newportfoliolist.css'
 import { portfolioList } from '../../data'
-
+import { useContext } from 'react';
+import { ThemeContext } from "../../context"
 
 const NewPortfolioList = () => {
+
+    // call ThemeContext
+    const theme = useContext(ThemeContext)
+    // call darkmode state in useContext from context.js file
+    const darkMode = theme.state.darkMode
+
     return (
         <div className="portfolio-list">
-            <div className="portfolio-listText">
-                <h1 className="portfolio-listTitle">Portfolio</h1>
-                <h2 className="portfolio-listSubtitle">Recent Projects</h2>
-                {/* <p className="portfolio-listDescription">
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Inventore quaerat harum esse ab, voluptatem quo. Eius obcaecati, amet nemo esse velit quia fugit at nisi vero earum commodi odit quo.</p> */}
+            <div className="portfolio-listText" >
+                <h1 className="portfolio-listTitle" style={{ color: darkMode && "#fff" }}>Portfolio</h1>
+                <h2 className="portfolio-listSubtitle" style={{ color: darkMode && "#fff" }}>Recent Projects</h2>
             </div>
             <div className="portfolio-listItems">
                 {portfolioList.map((portfolio) => (
-                    <NewPortfolio key={portfolio.id} title={portfolio.title} img={portfolio.img} link={portfolio.link} description={portfolio.description} tools={portfolio.tools} />
+                    <NewPortfolio className="portfolio-item-img" key={portfolio.id} title={portfolio.title} img={portfolio.img} link={portfolio.link} description={portfolio.description} tools={portfolio.tools} />
                 ))}
 
 

@@ -12,9 +12,11 @@ const NewPortfolio = ({ img, link, title, description, tools }) => {
             </div>
             <a href={link} target="_blank">
                 <img src={img} alt="" className="new-portfolio-img" />
+                {/* <button className="hidden-button">Test Button</button> */}
             </a>
 
             <div className='new-portfolio-details-container'>
+
                 <p className="new-portfolio-listDescription">
                     {description}</p>
                 <p className="new-portfolio-listTools">Built with: {tools}</p>

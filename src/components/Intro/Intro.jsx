@@ -14,8 +14,8 @@ const Intro = () => {
         <div className="intro">
             <div className="intro-left">
                 <div className="intro-left-container">
-                    <h2 className="intro-greeting">Hi, I'm</h2>
-                    <h1 className="intro-name">Shola Quadri</h1>
+                    <h2 className="intro-greeting" style={{ color: darkMode && "#fff" }}>Hi, I'm</h2>
+                    <h1 className="intro-name" style={{ color: darkMode && "#fff" }}>Shola Quadri</h1>
                     <div className="intro-title">
                         <div className="intro-title-container">
                             <div className="intro-title-item">Software Developer</div>

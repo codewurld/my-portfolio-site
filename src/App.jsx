@@ -12,6 +12,7 @@ import PortfolioPage from "./pages/Portfolio"
 import Footer from "./components/footer/Footer";
 import ContactPage from "./pages/ContactPage"
 import { ThemeContext } from "./context";
+import SwiperPortfolio from "./components/swiperportfolio/SwiperPortfolio";
 
 
 function App() {
@@ -34,6 +35,9 @@ function App() {
         <Switch>
           <Route exact path="/">
             <Home />
+          </Route>
+          <Route exact path="/skills">
+            <SwiperPortfolio />
           </Route>
           <Route exact path="/portfolio">
             <PortfolioPage />

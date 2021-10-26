@@ -24,6 +24,8 @@ export const portfolioList = [
         id: 2,
         title: "Web Rampa UI Design",
         img: "./assets/flexercise_guy.png",
+        description: "Bite-sized exercise app catered towards time starved young professionals.",
+        tools: "HTML, CSS, React, PWA (available as mobile app).",
         link: "https://schoolofcode.github.io/w15_collaborative-react-project-fitness-app/"
     },
     {

@@ -40,4 +40,8 @@
     .portfolio-listText{
         width: 100%;
     }
+
+    .portfolio-listTitle{
+        margin-top: 60px;
+    }
 }

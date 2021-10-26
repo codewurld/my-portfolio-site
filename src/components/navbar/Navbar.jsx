@@ -27,9 +27,9 @@ const Navbar = ({ openMenu, setOpenMenu }) => {
 
                 <div className="rightContainer" >
                     {/* open menu list when hamburger is clicked, using setOpenMenu function */}
-                    <div className="hamburgerMenu" onClick={() => setOpenMenu(!openMenu)} >
-                        <span className="firstLine" style={{ color: darkMode && "blue" }}></span>
-                        <span className="secondLine"></span>
+                    <div className="hamburgerMenu" style={{ color: darkMode && "#fff" }} onClick={() => setOpenMenu(!openMenu)} >
+                        <span className="firstLine" style={{ color: darkMode && "#fff" }}></span>
+                        <span className="secondLine" style={{ color: darkMode && "#fff" }}></span>
                         <span className="thirdLine"></span>
 
                     </div>

@@ -1,7 +1,7 @@
 
 .new-portfolio-item{
     width: 30%;
-    height: 40vh;
+    height: 60vh;
     margin: 20px 10px;
     border: 2px solid red;
     border-radius: 10px 10px 0px 0px;
@@ -18,6 +18,18 @@
     z-index: 1;
 }
 
+.new-portfolio-listDescription{
+    padding: 10px;
+    margin: 0px 3px 3px 0px;
+    font-size: 13px;
+}
+
+.new-portfolio-listTools{
+    padding: 10px;
+    margin: 0px 3px 3px 0px;
+    font-size: 13px;
+}
+
 .new-portfolio-shape{
     width: 6px;
     height: 6px;
@@ -28,8 +40,14 @@
 
 .new-portfolio-img{
     width: 100%;
+    height: 60%;
     transition: all 10s ease;
 }
+
+/* .hidden-button{
+    margin-bottom: -100px;
+    z-index: 2;
+} */
 
 /* animate portfolio image to imitate scroll when hovered */
 .new-portfolio-item:hover .new-portfolio-img{
@@ -39,6 +57,18 @@
 @media screen and (max-width: 480px) {
     .new-portfolio-item{
         width: 40%;
+        height: 20vh;
+    }
+
+    .new-portfolio-listDescription, .new-portfolio-listTools{
+        display: none;
+    }
+
+    .new-portfolio-img{
+       height: 85%;
+    }
+    
+    .new-portfolio-item{
         height: 20vh;
     }
 }
