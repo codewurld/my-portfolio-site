@@ -115,11 +115,12 @@ position: relative;
 @media screen and (max-width: 480px){
     .intro{
         flex-direction: column;
+        /* max-height: 90vh; */
     }
 
     .intro-left-container{
         /* padding: 20px; */
-        margin-top: 23px;
+        margin-top: 50px;
         align-items: center;
         justify-content: center;
         text-align: center;
@@ -144,6 +145,19 @@ position: relative;
     }
 
     .intro-right{
-        margin-bottom: 100px;
+        margin-bottom: -10px;
+        flex: 2;
+    }
+
+    .intro-left{
+        flex: 1;
+    }
+
+    .image-bg{
+        /* margin-right: 60px; */
+        /* display: none; */
+        clip-path: circle(50% at 50% 50%);
+        margin-top: 10px;
+        background: #E03616;
     }
 }

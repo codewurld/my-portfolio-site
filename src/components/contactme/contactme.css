@@ -14,6 +14,7 @@
 .contact-me-container{
     padding: 50px;
     display: flex;
+    margin-top: 70px;
 }
 
 .contact-me-left{
@@ -31,7 +32,7 @@
 .contact-me-info-item{
     display: flex;
     align-items: center;
-    margin: 50px 0px;
+    margin: 10px 0px;
     font-weight: 300;
 }
 
@@ -45,6 +46,7 @@
 
 .contact-email{
     margin-left: -20px;
+  
 }
 
 .contact-me-description{
@@ -60,7 +62,7 @@ input{
     height: 50px;
     border: none;
     border-bottom: 1px solid black;
-    margin: 10px 0px;
+    margin: 10px 1px;
     font-size: 14px;
     padding-left: 10px;
 }

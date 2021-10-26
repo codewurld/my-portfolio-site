@@ -4,6 +4,7 @@
       /* display flex and align items centers item vertically within its container */
     display: flex;
     align-items: center;
+   
 
 }
 
@@ -14,11 +15,13 @@
     justify-content: center;
     position: relative;
     height: 100%;
+    margin-top: 100px;
 }
 
 .about-meRight{
     flex: 1;
     margin-right: 60px;
+    margin-top: 0px;
 }
 
 .about-meCard.bg{

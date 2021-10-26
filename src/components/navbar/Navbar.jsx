@@ -20,7 +20,7 @@ const Navbar = ({ openMenu, setOpenMenu }) => {
         <div className={"navbar " + (openMenu && "active")} style={{ backgroundColor: darkMode && "black" }} >
             <div className="container">
                 <div className="leftContainer">
-                    <a href="#welcome" className="myLogo" style={{ color: darkMode && "#fff" }} >SQ.</a>
+                    <a href="/" className="myLogo" style={{ color: darkMode && "#fff" }} >SQ.</a>
 
                 </div>
                 <Darkmode />
