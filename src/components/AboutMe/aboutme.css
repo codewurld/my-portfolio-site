@@ -60,3 +60,39 @@
 .about-meDescription{
     font-weight: 300;
 }
+
+@media screen and (max-width: 480px){
+    .about-me{
+        flex-direction: column;
+        text-align: center;
+        margin-top: 50px;
+        height: 100vh;
+    }
+
+    .about-meLeft{
+        width: 100%;
+     
+    }
+
+    .about-meCard{
+        height: 30vh;
+    }
+
+    .about-meCard.bg{
+        display: none;
+    }
+
+    .about-meRight{
+        padding: 20px;
+        margin-bottom: 90px;
+    }
+
+    .about_buttons{
+        margin-top: 90px;
+        height: 10%;
+    }
+
+    /* .button--flex{
+        height: 100%;
+    } */
+}

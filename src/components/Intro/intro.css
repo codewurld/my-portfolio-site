@@ -111,3 +111,39 @@ position: relative;
     right: 0;
 }
 
+/* responsive for small mobile  */
+@media screen and (max-width: 480px){
+    .intro{
+        flex-direction: column;
+    }
+
+    .intro-left-container{
+        /* padding: 20px; */
+        margin-top: 23px;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        height: 100%;
+    }
+
+    .intro-title-item{
+        font-size: 20px;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .intro-name{
+        font-size: 30px;
+    }
+
+    .intro-description{
+        /* font-size: 0.8rem;
+        margin-top: 10px; */
+        display: none;
+    }
+
+    .intro-right{
+        margin-bottom: 100px;
+    }
+}

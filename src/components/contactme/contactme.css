@@ -81,3 +81,42 @@ button{
     cursor: pointer;
 
 }
+
+/* responsive for small mobile  */
+@media screen and (max-width: 480px){
+    .contact-me-container{
+        flex-direction: column;
+        padding: 0px 50px;
+    }
+
+    .contact-me-title{
+       font-size: 30px; 
+    }
+
+    .contact-me-info-item{
+        margin: 20px 0px;
+        width: 100%;
+    }
+
+    /* hide text in mobile */
+    .contact-me-description{
+        display: none;
+    }
+
+    form{
+        margin-top: 0px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    input{
+        width: 35%;
+        height: 40px;
+        margin: 10px;
+        margin-left: 0;
+    }
+
+    button{
+        margin-top: 10px;
+    }
+}

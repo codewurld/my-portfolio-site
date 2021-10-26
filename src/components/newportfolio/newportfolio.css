@@ -36,17 +36,9 @@
    transform: translateY(-100%);
 }
 
-/* .new-portfolio-details-container{
-    font-size: small;
-    margin-top: 150px;
-    padding-left: 8px;
-    padding-right: 8px;
-} */
-
-/* .new-portfolio-listDescription{
-    font-size: small;
-    margin-top: 110px;
-    padding: 0px -10px -10px 0px;
-    padding-left: 8px;
-    padding-right: 8px;
-} */
+@media screen and (max-width: 480px) {
+    .new-portfolio-item{
+        width: 40%;
+        height: 20vh;
+    }
+}
