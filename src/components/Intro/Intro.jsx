@@ -30,7 +30,7 @@ const Intro = () => {
                         I design and develop services for customers of all sizes, specialising in creating stylish, modern websites, web servies and online stores.
                     </p> */}
 
-                    <a href="/contact" className="button button--flex" style={{ backgroundColor: darkMode && "#000" }} onMouseOver="this.style.color='#fff'" >
+                    <a href="/contact" className="button button--flex" onMouseOver="this.style.color='#fff'" >
                         Let's connect <i className="uil uil-navigator button_icon"></i>
                     </a>
                 </div>

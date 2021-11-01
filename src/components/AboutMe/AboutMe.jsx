@@ -25,6 +25,7 @@ const AboutMe = () => {
             <div className="about-meRight">
                 <h1 className="about-meTitle" style={{ color: darkMode && "#fff" }}>My Story</h1>
                 <p className="about-meSubtitle">As a Software Developer, I dedicate most of my time learning new technologies and improving my skills to create aesthetically pleasing and functional web apps/sites that solves real life problems for users.</p>
+                {/* <p className="about-me-alt">A musician and marketer turned software developer.</p> */}
                 <p className="about-meDescription">
                     I learnt how to become a developer through the School of Code bootcamp, where we worked regularly in agile teams on real life projects whilst learning and putting to practice new skills, i.e. MERN stack, Testing, APIs, Figma, the entire SDLC, etc.
                 </p>

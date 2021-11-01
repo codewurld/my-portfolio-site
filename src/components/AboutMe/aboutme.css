@@ -21,7 +21,7 @@
 .about-meRight{
     flex: 1;
     margin-right: 60px;
-    margin-top: 365px;
+    margin-top: 5px;
 }
 
 .about-meCard.bg{
@@ -48,24 +48,35 @@
 .about_buttons{
     display: flex;
     justify-content: center;
-    margin-top: 300px;
-    
+    margin-top: 20px;
+    margin-left: 120px;
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    width: 45%;
+    height: 20%;
+    border-radius: 5%;
+}
+
+.about_buttons:hover{
+    background-color: #E03616;
 }
 
 .about-meTitle{
     font-weight: 400;
-    padding: 10px;
+    padding: 5px;
 }
 
 .about-meSubtitle{
     /* margin: 20px 0px; */
-    padding: 10px;
+    padding: 5px;
     font-size: 14px;
 }
 
 .about-meDescription{
     font-weight: 200;
-    padding: 10px;
+    padding: 5px;
     font-size: 14px;
 }
 
@@ -92,7 +103,13 @@
 
     .about-meRight{
         padding: 20px;
-        margin-bottom: 90px;
+        /* margin-bottom: 90px; */
+        margin-top: -9px;
+        /* display: flex; */
+        /* align-items: center; */
+        justify-content: center;
+        text-align: center;
+        height: 100vh;
     }
 
     .about_buttons{
