@@ -12,7 +12,7 @@ const AboutMe = () => {
             </div>
             <div className="about-meRight">
                 <h1 className="about-meTitle">My Story</h1>
-                <p className="about-meSubtitle">This is a subtitle that I need to write out later.</p>
+                <p className="about-meSubtitle">As a Software Developer, I dedicate most of my time learning new technologies and improving my skills to create aesthetically pleasing and functional web apps/sites that solves real life problems for users.</p>
                 <p className="about-meDescription">
                     Lorem ipsum dolor, sit amet consectetur adipisicing elit. Est, sapiente delectus dolore animi vero doloribus esse maiores voluptate id consectetur nostrum blanditiis veniam dolor facilis adipisci ipsa laborum? Voluptatem, suscipit.
                 </p>

@@ -6,8 +6,11 @@ import './footer.css'
 const Footer = () => {
     return (
         <div className="footer-container">
-            <footer>
-                <GitHubIcon />
+            <footer className="footer">
+                <p>© {new Date().getFullYear()}, Shola Quadri</p>
+
+                <a href="https://github.com/codewurld/" target="_blank" rel="noopener noreferrer"><GitHubIcon /></a>
+
                 <LinkedInIcon />
                 <TwitterIcon />
             </footer>

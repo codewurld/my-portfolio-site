@@ -23,7 +23,7 @@ SwiperCore.use([EffectCoverflow, Pagination, Navigation]);
 // Import Swiper styles
 // import 'swiperportfolio/css';
 
-const SwiperPortfolio = () => {
+const SwiperPortfolio = ({ img, link, title, description, tools }) => {
     return (
         <div className="swiper-portfolio-container">
             <div className="title-container">
@@ -51,7 +51,12 @@ const SwiperPortfolio = () => {
                 }}
                 className="mySwiper">
                 <SwiperSlide>
-                    <img src="assets/flexercise_guy.png" alt="" />
+                    <a href="www.google.com">
+                        <img src="assets/flexercise_guy.png" alt="" />
+                    </a>
+                    <p>Web app built for a NHS affiliated client to guide people on a motherhood journey towards a healthy balanced diet and lifestyle.</p>
+                    <p>Built with: HTML, Sass, React, Firebase.</p>
+
                 </SwiperSlide>
                 <SwiperSlide>
                     <img src="assets/sun.png" alt="" />

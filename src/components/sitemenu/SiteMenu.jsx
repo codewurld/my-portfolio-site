@@ -14,9 +14,9 @@ const SiteMenu = ({ openMenu, setOpenMenu, autoclose }) => {
                 <li onClick={() => setOpenMenu(false)}>
                     <a href="/">Home</a>
                 </li>
-                <li onClick={() => setOpenMenu(false)}>
+                {/* <li onClick={() => setOpenMenu(false)}>
                     <a href="/skills">Skills</a>
-                </li>
+                </li> */}
                 <li onClick={() => setOpenMenu(false)}>
                     <a href="/portfolio">Portfolio</a>
                 </li>

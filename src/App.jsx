@@ -36,9 +36,9 @@ function App() {
           <Route exact path="/">
             <Home />
           </Route>
-          <Route exact path="/skills">
+          {/* <Route exact path="/skills">
             <SwiperPortfolio />
-          </Route>
+          </Route> */}
           <Route exact path="/portfolio">
             <PortfolioPage />
           </Route>
@@ -49,7 +49,9 @@ function App() {
             <ContactPage />
           </Route>
         </Switch>
-        <Footer />
+        <footer>
+          <Footer />
+        </footer>
       </Router>
 
     </div >

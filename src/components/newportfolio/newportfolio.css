@@ -44,14 +44,21 @@
     transition: all 10s ease;
 }
 
-/* .hidden-button{
-    margin-bottom: -100px;
-    z-index: 2;
-} */
 
 /* animate portfolio image to imitate scroll when hovered */
-.new-portfolio-item:hover .new-portfolio-img{
+/* .new-portfolio-item:hover .new-portfolio-img{
    transform: translateY(-100%);
+} */
+
+.hidden-button{
+    /* width: 70px; */
+    height: 30px;
+    padding: -20px;
+    display: inline-block;
+    align-items: center;
+    text-align: center;
+    /* display: flex; */
+    justify-content: center;
 }
 
 @media screen and (max-width: 480px) {
