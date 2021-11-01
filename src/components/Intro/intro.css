@@ -30,6 +30,15 @@ position: relative;
     justify-content: space-between;
 }
 
+.button--flex{
+    margin: 0px 2px -80px 0px;
+    z-index: 2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
 .intro-greeting{
     font-size: 30px;
     font-weight: 300;
@@ -80,7 +89,7 @@ position: relative;
 }
 
 .intro-button{
-    margin-top: 60px;
+    margin-top: 200px;
 }
 
 .intro-img{
@@ -159,5 +168,9 @@ position: relative;
         clip-path: circle(50% at 50% 50%);
         margin-top: 10px;
         background: #E03616;
+    }
+
+    .button--flex{
+        display: none;
     }
 }

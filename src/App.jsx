@@ -58,15 +58,6 @@ function App() {
   );
 }
 
-{/* <Navbar menuOpen={menuOpen} setMenuOpen={setMenuOpen} /> */ }
-{/* <Navbar openMenu={openMenu} setOpenMenu={setOpenMenu} /> */ }
-{/* <SiteMenu openMenu={openMenu} setOpenMenu={setOpenMenu} /> */ }
-{/* <Menu /> */ }
-// <div className="sections">
-
-
-// </div>
-// <p>App</p>
 
 
 

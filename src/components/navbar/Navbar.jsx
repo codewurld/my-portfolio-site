@@ -1,9 +1,5 @@
 import React from "react";
 import "./navbar.scss"
-import Person from '@material-ui/icons/Person';
-import EmailIcon from '@material-ui/icons/Email';
-import GitHubIcon from '@material-ui/icons/GitHub';
-import LinkedInIcon from '@material-ui/icons/LinkedIn';
 import Darkmode from "../darkmode/Darkmode";
 import { useContext } from "react";
 import { ThemeContext } from "../../context";

@@ -21,7 +21,7 @@
 .about-meRight{
     flex: 1;
     margin-right: 60px;
-    margin-top: 0px;
+    margin-top: 365px;
 }
 
 .about-meCard.bg{
@@ -54,14 +54,19 @@
 
 .about-meTitle{
     font-weight: 400;
+    padding: 10px;
 }
 
 .about-meSubtitle{
-    margin: 20px 0px;
+    /* margin: 20px 0px; */
+    padding: 10px;
+    font-size: 14px;
 }
 
 .about-meDescription{
-    font-weight: 300;
+    font-weight: 200;
+    padding: 10px;
+    font-size: 14px;
 }
 
 @media screen and (max-width: 480px){

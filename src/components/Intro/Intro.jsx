@@ -25,12 +25,16 @@ const Intro = () => {
                         </div>
 
                     </div>
-                    <p className="intro-description">
+                    {/* <p className="intro-description">
                         I design and develop services for customers of all sizes, specialising in creating stylish, modern websites, web servies and online stores.
-                    </p>
-                    {/* <button className="intro-button">Let's Connect</button> */}
+                    </p> */}
+
+                    <a href="/contact" className="button button--flex" style={{ backgroundColor: darkMode && "#000" }} onMouseOver="this.style.color='#fff'" onMouseOut="this.style.backgroundColor='#FFFFFF'">
+                        Let's connect <i className="uil uil-navigator button_icon"></i>
+                    </a>
                 </div>
-                {/* <Button className="intro-button" /> */}
+
+
             </div>
             <div className="intro-right">
                 <div className="image-bg" style={{ backgroundColor: darkMode && "#fff" }}>

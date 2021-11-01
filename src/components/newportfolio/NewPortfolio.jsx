@@ -10,7 +10,7 @@ const NewPortfolio = ({ img, link, title, description, tools }) => {
                 <div className="new-portfolio-shape"></div>
                 <div className="new-portfolio-shape"></div>
             </div>
-            <a href={link} target="_blank">
+            <a href={link} target="_blank" rel="noreferrer">
                 <img src={img} alt="" className="new-portfolio-img" />
                 {/* <button className="hidden-button">Live Link</button> */}
             </a>
