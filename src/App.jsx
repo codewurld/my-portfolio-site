@@ -2,8 +2,6 @@
 import "./app.scss"
 import { useContext, useState } from "react";
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
-import Menu from "./components/menu/Menu"
-import WelcomePage from "./components/welcomepage/Welcomepage"
 import Navbar from "./components/navbar/Navbar"
 import SiteMenu from "./components/sitemenu/SiteMenu"
 import Home from "./pages/Home"
