@@ -10,6 +10,7 @@ const Intro = () => {
     // call darkmode state in useContext from context.js file
     const darkMode = theme.state.darkMode
 
+
     return (
         <div className="intro">
             <div className="intro-left">
@@ -29,7 +30,7 @@ const Intro = () => {
                         I design and develop services for customers of all sizes, specialising in creating stylish, modern websites, web servies and online stores.
                     </p> */}
 
-                    <a href="/contact" className="button button--flex" style={{ backgroundColor: darkMode && "#000" }} onMouseOver="this.style.color='#fff'" onMouseOut="this.style.backgroundColor='#FFFFFF'">
+                    <a href="/contact" className="button button--flex" style={{ backgroundColor: darkMode && "#000" }} onMouseOver="this.style.color='#fff'" >
                         Let's connect <i className="uil uil-navigator button_icon"></i>
                     </a>
                 </div>

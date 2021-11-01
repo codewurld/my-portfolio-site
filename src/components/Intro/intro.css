@@ -36,8 +36,17 @@ position: relative;
     display: flex;
     align-items: center;
     justify-content: center;
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    width: 35%;
+    height: 20%;
+    border-radius: 5%;
 }
 
+.button--flex:hover{
+    background-color: #E03616;
+}
 
 .intro-greeting{
     font-size: 30px;

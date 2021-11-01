@@ -1,8 +1,16 @@
 import './aboutme.css'
+import { useContext } from "react"
+import { ThemeContext } from "../../context"
 
 const AboutMe = () => {
 
     var link = <a href="https://nutri-glow.netlify.app/">NutriGlow</a>;
+
+
+    // call ThemeContext
+    const theme = useContext(ThemeContext)
+    // call darkmode state in useContext from context.js file
+    const darkMode = theme.state.darkMode
 
 
     return (
@@ -15,7 +23,7 @@ const AboutMe = () => {
                 </div>
             </div>
             <div className="about-meRight">
-                <h1 className="about-meTitle">My Story</h1>
+                <h1 className="about-meTitle" style={{ color: darkMode && "#fff" }}>My Story</h1>
                 <p className="about-meSubtitle">As a Software Developer, I dedicate most of my time learning new technologies and improving my skills to create aesthetically pleasing and functional web apps/sites that solves real life problems for users.</p>
                 <p className="about-meDescription">
                     I learnt how to become a developer through the School of Code bootcamp, where we worked regularly in agile teams on real life projects whilst learning and putting to practice new skills, i.e. MERN stack, Testing, APIs, Figma, the entire SDLC, etc.

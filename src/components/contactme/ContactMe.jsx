@@ -27,7 +27,6 @@ const ContactMe = () => {
             });
     }
 
-
     // call ThemeContext
     const theme = useContext(ThemeContext)
     // call darkmode state in useContext from context.js file
@@ -41,7 +40,7 @@ const ContactMe = () => {
             </div>
             <div className="contact-me-container">
                 <div className="contact-me-left">
-                    <h1 className="contact-me-title">Get in touch</h1>
+                    <h1 className="contact-me-title" style={{ color: darkMode && "#fff" }} >Get in touch</h1>
                     <div className="contact-me-info">
                         <div className="contact-me-info-item">
                             <i class="uil uil-envelope-alt contact-icon"></i>
@@ -59,7 +58,7 @@ const ContactMe = () => {
                         <input style={{ backgroundColor: darkMode && "#333" }} type="text" placeholder="Subject" name="user_subject" />
                         <input style={{ backgroundColor: darkMode && "#333" }} type="text" placeholder="Email" name="user_email" />
                         <textarea style={{ backgroundColor: darkMode && "#333" }} rows="5" placeholder="Message" name="message" />
-                        <button>Submit</button>
+                        <button className="submit-btn">Submit</button>
                         {/* if message is sent, push acknowledgment notification to user */}
                         {sentEmail && "Thank you for getting in touch... I'll get back to you within 24 hours."}
                     </form>
