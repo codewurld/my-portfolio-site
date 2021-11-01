@@ -4,7 +4,7 @@ I created this website to showcase my portfolio of work and journey into softwar
 
 ## Hosted at:
 
-In the project directory, you can run:
+[Live Link](https://nutriglow.netlify.app/)
 
 ## Built with:
 
