@@ -39,7 +39,7 @@ const AboutMe = () => {
                     And when I’m not coding, you’ll probably find me at tech meetups and conferences, both as a participant and speaker (i.e. Web Summit, BrumJS, etc.), keeping up with the latest developments and sharing my experiences. I also enjoy reading, meditation, volunteering, music, songwriting and travelling.
                 </p>
                 <div class="about_buttons">
-                    <a href="assets/SholaQuadri_Tech_CV (3).pdf" class="button button--flex" download
+                    <a href="assets/SholaQuadri_Tech_CV (6).pdf" class="button button--flex" download
                         rel="noopener noreferrer" target="_blank">
                         Download CV<i class="uil uil-file-download button_icon"></i>
                     </a>
