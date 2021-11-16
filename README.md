@@ -4,7 +4,7 @@ I created this website to showcase my portfolio of work and journey into softwar
 
 ## Hosted at:
 
-[Live Link](https://nutriglow.netlify.app/)
+[Live Link](https://sholaq-portfolio.netlify.app/)
 
 ## Built with:
 
@@ -13,9 +13,14 @@ I created this website to showcase my portfolio of work and journey into softwar
 - Material UI
 - EmailJs
 
-
-
 ## Dependencies
 
 **App:** react, ityped, react-dom, react-router-dom, swiper, node-sass, material-ui, emailJS  
+
+### Stretch Goals (to-do)
+
+- Make more mobile responsive for other screen sizes (768px, etc.)
+- Add footer
+- Add portfolio display with carousel
+
 
