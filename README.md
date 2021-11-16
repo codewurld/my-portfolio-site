@@ -22,5 +22,6 @@ I created this website to showcase my portfolio of work and journey into softwar
 - Make more mobile responsive for other screen sizes (768px, etc.)
 - Add footer
 - Add portfolio display with carousel
+- Add skills section
 
 
