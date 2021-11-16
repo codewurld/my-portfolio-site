@@ -22,7 +22,7 @@ export const portfolioList = [
     },
     {
         id: 2,
-        title: "Web Rampa UI Design",
+        title: "Flexercise Exercise App",
         img: "./assets/flexercise_guy.png",
         description: "Bite-sized exercise app catered towards time starved young professionals.",
         tools: "HTML, CSS, React, PWA (available as mobile app).",
@@ -30,9 +30,11 @@ export const portfolioList = [
     },
     {
         id: 3,
-        title: "Web E-commerce Design",
-        img: "https://cdn.dribbble.com/users/3637068/screenshots/15467010/media/69a3279182b75365013fe285733d1122.png?compress=1&resize=1200x900",
-        link: "https://schoolofcode.github.io/w15_collaborative-react-project-fitness-app/"
+        title: "NOMADS. Test Store (MVP)",
+        img: "./assets/nomads_test_2.png",
+        description: "MVP demo E-commerce web app built for lifestyle brand client.",
+        tools: "React, MaterialUI, CommerceJS, Stripe API.",
+        link: "https://nomads-test-store.netlify.app/"
     },
     // {
     //     id: 4,
