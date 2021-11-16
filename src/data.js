@@ -24,7 +24,7 @@ export const portfolioList = [
         id: 2,
         title: "Flexercise Exercise App",
         img: "./assets/flexercise_guy.png",
-        description: "Bite-sized exercise app catered towards time starved young professionals.",
+        description: "Bite-sized exercise app created to help time starved young professionals to keep healthy.",
         tools: "HTML, CSS, React, PWA (available as mobile app).",
         link: "https://schoolofcode.github.io/w15_collaborative-react-project-fitness-app/"
     },
