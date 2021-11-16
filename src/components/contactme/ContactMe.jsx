@@ -16,7 +16,7 @@ const ContactMe = () => {
         e.preventDefault();
 
         // emailjs function sends contact message to emal inbox
-        emailjs.sendForm('service_cym0vjc', 'template_snp48c5', formRef.current, "user_jJk6VTvEWa2hlB5DQMwOY"
+        emailjs.sendForm('service_cym0vjc', 'template_snp48c5', formRef.current, process.env.REACT_APP_EMAILJS_KEY
         )
             .then((result) => {
                 console.log(result.text);
