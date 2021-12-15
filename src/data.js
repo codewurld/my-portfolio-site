@@ -36,12 +36,17 @@ export const portfolioList = [
         tools: "React, MaterialUI, CommerceJS, Stripe API.",
         link: "https://nomads-test-store.netlify.app/"
     },
-    // {
-    //     id: 4,
-    //     title: "Web Relax App",
-    //     img: "https://cdn.dribbble.com/users/2264844/screenshots/15463998/media/d85e92a332c41094f68e1f716884f7ce.jpg?compress=1&resize=1200x900",
-    //     link: "https://schoolofcode.github.io/w15_collaborative-react-project-fitness-app/"
-    // },
+    {
+        id: 4,
+        title: "Eye on The Money",
+        img: "./assets/eye-on-the-money.png",
+        description: "Simple expense management app built to learn and improve full stack skills.",
+        tools: "React, MongoDB, Express, NodeJs, CSS.",
+        link: "https://eye-on-the-money.herokuapp.com/"
+    },
+
+
+
     // {
     //     id: 5,
     //     title: "Web Design",
