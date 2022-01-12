@@ -20,23 +20,32 @@ const Intro = () => {
                     <div className="intro-title">
                         <div className="intro-title-container">
                             <div className="intro-title-item">Software Developer</div>
-                            <div className="intro-title-item">UX/UI Designer</div>
+                            {/* <div className="intro-title-item">UX/UI Designer</div>
                             <div className="intro-title-item">Speaker</div>
-                            <div className="intro-title-item">Learner</div>
+                            <div className="intro-title-item">Learner</div> */}
                         </div>
+                        {/* <a href="/">
+                            <img className="github-logo" src="/assets/GitHub.png" alt="" />
+                        </a> */}
 
                     </div>
-                    {/* <p className="intro-description">
-                        I design and develop services for customers of all sizes, specialising in creating stylish, modern websites, web servies and online stores.
-                    </p> */}
+
+                    {/* <img className="github-logo" src="/assets/GitHub.png" alt="" /> */}
+
+
 
                     <a href="/contact" className="button button--flex" onMouseOver="this.style.color='#fff'" >
                         Let's connect <i className="uil uil-navigator button_icon"></i>
+
                     </a>
+                    {/* <button className="test">hi</button> */}
                 </div>
+                {/*  */}
 
 
             </div>
+
+
             <div className="intro-right">
                 <div className="image-bg" style={{ backgroundColor: darkMode && "#fff" }}>
 

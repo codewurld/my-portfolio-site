@@ -9,17 +9,28 @@ const NewPortfolio = ({ img, link, title, description, tools }) => {
                 <div className="new-portfolio-shape"></div>
                 <div className="new-portfolio-shape"></div>
                 <div className="new-portfolio-shape"></div>
+                {/* <div className="move"><button>woo</button></div> */}
+
             </div>
-            <a href={link} target="_blank" rel="noreferrer">
-                <img src={img} alt="" className="new-portfolio-img" />
-                {/* <button className="hidden-button">Live Link</button> */}
-            </a>
+
+            <img src={img} alt="" className="new-portfolio-img" />
+            {/* <button className="live-link-btn">Live Link</button> */}
+
+
+
+
+            {/* <button className="hidden-button">Live Link</button> */}
+            {/**/}
 
             <div className='new-portfolio-details-container'>
 
                 <p className="new-portfolio-listDescription">
                     {description}</p>
                 <p className="new-portfolio-listTools">Built with: {tools}</p>
+                <a href={link} target="_blank" rel="noreferrer">
+                    <button className="site-link" >Live Site</button>
+                </a>
+
             </div>
         </div>
 

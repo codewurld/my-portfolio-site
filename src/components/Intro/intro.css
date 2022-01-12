@@ -23,12 +23,16 @@ position: relative;
 .intro-left-container{
     padding: 50px;
     height: 50%;
+    margin-right: 65px;
+    margin-bottom: 70px;
     display: flex;
     /* display all items in the container in a column */
     flex-direction: column;
     /* insert space between each item in the */
     justify-content: space-between;
 }
+
+
 
 .button--flex{
     margin: 0px 2px -80px 0px;
@@ -70,8 +74,16 @@ position: relative;
    animation: move 9s ease-in-out infinite alternate;
 } 
 
+/* .github-logo{
+  
+    margin-bottom: 900px;
+    padding: -10px;
+  
+    height: 20%;
+} */
+
 /* scroll animate jobs in intro title */
-@keyframes move {
+/* @keyframes move {
     25%{
         transform: translateY(-50px);
     }
@@ -84,7 +96,7 @@ position: relative;
     100%{
         transform: translateY(-150px);
     }
-}
+} */
 
 .intro-title-item{
     height: 100%;
@@ -128,6 +140,7 @@ position: relative;
     /* top: 0; */
     right: 0;
 }
+
 
 /* responsive for small mobile  */
 @media screen and (max-width: 480px){

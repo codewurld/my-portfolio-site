@@ -22,29 +22,30 @@ export const portfolioList = [
     },
     {
         id: 2,
-        title: "Flexercise Exercise App",
-        img: "./assets/flexercise_guy.png",
-        description: "Bite-sized exercise app created to help time starved young professionals to keep healthy.",
-        tools: "HTML, CSS, React, PWA (available as mobile app).",
-        link: "https://schoolofcode.github.io/w15_collaborative-react-project-fitness-app/"
-    },
-    {
-        id: 3,
-        title: "NOMADS. Test Store (MVP)",
-        img: "./assets/nomads_test_2.png",
-        description: "MVP demo E-commerce web app built for lifestyle brand client.",
-        tools: "React, MaterialUI, CommerceJS, Stripe API.",
-        link: "https://nomads-test-store.netlify.app/"
-    },
-    {
-        id: 4,
         title: "Eye on The Money",
-        img: "./assets/eye-on-the-money.png",
-        description: "Simple expense management app built to learn and improve full stack skills.",
+        img: "./assets/eye-spy.png",
+        description: "Simple expense management full stack app built to learn and improve full stack skills.",
         tools: "React, MongoDB, Express, NodeJs, CSS.",
         link: "https://eye-on-the-money.herokuapp.com/"
     },
 
+    {
+        id: 3,
+        title: "NOMADS. Test Store (MVP)",
+        img: "./assets/nomads_test_2.png",
+        description: "MVP demo E-commerce web app built for a fashion lifestyle brand.",
+        tools: "React, MaterialUI, CommerceJS, Stripe API.",
+        link: "https://nomads-test-store.netlify.app/"
+    },
+
+    // {
+    //     id: 4,
+    //     title: "Flexercise Exercise App",
+    //     img: "./assets/flexercise_guy.png",
+    //     description: "Bite-sized exercise app created to help time starved young professionals to keep healthy.",
+    //     tools: "HTML, CSS, React, PWA (available as mobile app).",
+    //     link: "https://schoolofcode.github.io/w15_collaborative-react-project-fitness-app/"
+    // },
 
 
     // {
