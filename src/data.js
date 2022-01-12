@@ -2,12 +2,14 @@ export const portfolio = [
     {
         id: 1,
         img: "./assets/nutri_glow.png",
-        link: "https://nutri-glow.netlify.app/"
+        link: "https://nutri-glow.netlify.app/",
+        github: "https://github.com/codewurld/NutriGlow-Pregnancy-Health-App"
     },
     {
         id: 2,
         img: "./assets/flexercise_guy.png",
-        link: "https://schoolofcode.github.io/w15_collaborative-react-project-fitness-app/"
+        link: "https://schoolofcode.github.io/w15_collaborative-react-project-fitness-app/",
+
     }
 ]
 
@@ -18,7 +20,8 @@ export const portfolioList = [
         img: "./assets/nutri_glow.png",
         description: "Web app built for a NHS affiliated client to guide people on a motherhood journey towards a healthy balanced diet and lifestyle.",
         tools: "HTML, Sass, React, Firebase.",
-        link: "https://nutri-glow.netlify.app/"
+        link: "https://nutri-glow.netlify.app/",
+        github: "https://github.com/codewurld/NutriGlow-Pregnancy-Health-App"
     },
     {
         id: 2,
@@ -26,7 +29,8 @@ export const portfolioList = [
         img: "./assets/eye-spy.png",
         description: "Simple expense management full stack app built to learn and improve full stack skills.",
         tools: "React, MongoDB, Express, NodeJs, CSS.",
-        link: "https://eye-on-the-money.herokuapp.com/"
+        link: "https://eye-on-the-money.herokuapp.com/",
+        github: "https://github.com/codewurld/eye-on-the-money-app"
     },
 
     {
@@ -35,7 +39,8 @@ export const portfolioList = [
         img: "./assets/nomads_test_2.png",
         description: "MVP demo E-commerce web app built for a fashion lifestyle brand.",
         tools: "React, MaterialUI, CommerceJS, Stripe API.",
-        link: "https://nomads-test-store.netlify.app/"
+        link: "https://nomads-test-store.netlify.app/",
+        github: "https://github.com/codewurld/e-commerce-app"
     },
 
     // {

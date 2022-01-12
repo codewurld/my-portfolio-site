@@ -1,7 +1,7 @@
 import './newportfolio.css'
 
 
-const NewPortfolio = ({ img, link, title, description, tools }) => {
+const NewPortfolio = ({ img, link, title, github, description, tools }) => {
     return (
         <div className="new-portfolio-item">
             {/* browser like design for the containers */}
@@ -29,6 +29,9 @@ const NewPortfolio = ({ img, link, title, description, tools }) => {
                 <p className="new-portfolio-listTools">Built with: {tools}</p>
                 <a href={link} target="_blank" rel="noreferrer">
                     <button className="site-link" >Live Site</button>
+                </a>
+                <a href={github}>
+                    <button className="git-link" >Github</button>
                 </a>
 
             </div>

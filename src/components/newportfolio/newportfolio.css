@@ -42,14 +42,19 @@
     border-radius: 50%;
 }
 
-.site-link{
+.site-link, .git-link{
     background-color: #000;
     width: 70px;
     height: 30px;
     padding: 6px;
+    margin-left: 10px;
 }
 
 .site-link:hover{
+    background-color: red;
+}
+
+.git-link:hover{
     background-color: red;
 }
 

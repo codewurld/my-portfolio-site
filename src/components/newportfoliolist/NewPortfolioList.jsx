@@ -19,7 +19,7 @@ const NewPortfolioList = () => {
             </div>
             <div className="portfolio-listItems">
                 {portfolioList.map((portfolio) => (
-                    <NewPortfolio className="portfolio-item-img" key={portfolio.id} title={portfolio.title} img={portfolio.img} link={portfolio.link} description={portfolio.description} tools={portfolio.tools} />
+                    <NewPortfolio className="portfolio-item-img" key={portfolio.id} title={portfolio.title} img={portfolio.img} link={portfolio.link} description={portfolio.description} tools={portfolio.tools} github={portfolio.github} />
                 ))}
 
 
