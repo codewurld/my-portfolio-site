@@ -31,13 +31,14 @@ const Intro = () => {
                     </div>
 
                     {/* <img className="github-logo" src="/assets/GitHub.png" alt="" /> */}
+                    {/* Let's connect <i className="uil uil-navigator button_icon"></i> */}
 
 
-
-                    <a href="/contact" className="button button--flex" onMouseOver="this.style.color='#fff'" >
-                        Let's connect <i className="uil uil-navigator button_icon"></i>
+                    <a href="https://github.com/codewurld/" className="button button--flex" target="_blank">
+                        <img className="git-logo" src="/assets/GitHub.png" alt="github logo" />
 
                     </a>
+
                     {/* <button className="test">hi</button> */}
                 </div>
                 {/*  */}
